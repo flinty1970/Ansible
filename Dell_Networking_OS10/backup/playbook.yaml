@@ -1,0 +1,14 @@
+---
+- name: backup switches
+  hosts: fabric_b
+  connection: network_cli
+  collections:
+     - dellemc.os10
+
+  tasks:
+    - name: Export configuration commands
+      os10_config:
+        lines: ['hostname {{ inventory_hostname }}']
+        backup: yes
+        backup_options: 
+          dir_path: /home/mflint/Ansible/Dell_Networking_OS10/backup/configs

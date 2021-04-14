@@ -1,0 +1,58 @@
+---
+- name: Create a Filesytem
+  hosts: localhost
+  connection: local
+  vars_files:
+    - vars/connection.yml
+    - vars/credentials.yml
+  vars:
+    input: &connection_vars
+      password: "{{ password }}"
+      array_ip: "{{ array_ip_1 }}"
+      user: "{{  user  }}"
+      verifycert: false
+    filesystem_name: "Ansible_FS"
+    nas_server_id: "NFS_SHARE"
+    description: "FileSystem Created by Ansible"
+    export_name1: "Ansible_FS"
+    path1: "/Ansible_FS"
+    #protection_policy_id: "daily"
+
+  tasks:
+    - name: Create FileSystem by Name
+      register: result_fs
+      dellemc_powerstore_filesystem:
+        <<: *connection_vars
+        filesystem_name: "{{filesystem_name}}"
+        description: "{{description}}"
+        nas_server: "{{nas_server_id}}"
+        size: "100"
+        cap_unit: "GB"
+        access_policy: "UNIX"
+        locking_policy: "MANDATORY"
+        smb_properties:
+          is_smb_no_notify_enabled: True
+          is_smb_notify_on_access_enabled: True
+        #quota_defaults:
+        #  grace_period: 1
+        #  grace_period_unit: 'days'
+        #  default_hard_limit: 3
+        #  default_soft_limit: 2
+        #protection_policy: "{{protection_policy_id}}"
+        state: "present"
+
+    - name: Create NFS export (filesystem)
+      dellemc_powerstore_nfs:
+        <<: *connection_vars
+        nfs_export_name: "{{export_name1}}"
+        filesystem: "{{filesystem_name}}"
+        nas_server: "{{nas_server_id}}"
+        path: "{{path1}}"
+        description: "This NFS filesystem was brought to you by Ansible"
+        default_access: "ROOT"
+        min_security: "SYS"
+        anonymous_uid: 1000
+        anonymous_gid: 1000
+        is_no_suid: True
+        #host_state: "present-in-export"
+        state: "present"

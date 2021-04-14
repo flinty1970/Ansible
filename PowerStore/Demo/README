@@ -1,0 +1,1 @@
+run "ansible-playbook Demo.yml -i inv"

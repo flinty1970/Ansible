@@ -1,0 +1,1597 @@
+2021-03-17 07:53:18,795 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:53:18,795 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:53:18,795 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7facca3380f0>
+2021-03-17 07:53:18,862 dellemc_powerstore_volume.py INFO : Creating volume test-vm-AnsibleDemo-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-17 07:53:19,229 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-17 07:53:19,229 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 07:54:35,521 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:54:35,521 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:54:35,521 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f89436cf0f0>
+2021-03-17 07:54:35,652 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 07:54:35,652 dellemc_powerstore_volume.py INFO : Mapping volume test-vm-AnsibleDemo-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-17 07:56:17,582 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:56:17,582 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:56:17,582 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fdf03f390f0>
+2021-03-17 07:56:17,627 dellemc_powerstore_host.py INFO : Creating host demo-test-vm
+2021-03-17 07:56:17,628 dellemc_powerstore_host.py INFO : Creating host demo-test-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-17 07:56:17,941 dellemc_powerstore_host.py INFO : the response is {'id': 'f009b79a-bf43-47ac-a23e-e627fd1380e5'}
+2021-03-17 07:56:18,069 dellemc_powerstore_host.py INFO : Getting host f009b79a-bf43-47ac-a23e-e627fd1380e5 details
+2021-03-17 07:56:18,108 dellemc_powerstore_host.py INFO : changed True
+2021-03-17 07:56:25,156 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:56:25,156 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:56:25,156 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4aaf70c0f0>
+2021-03-17 07:56:25,210 dellemc_powerstore_volume.py INFO : Creating volume test-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-17 07:56:25,543 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-17 07:56:25,543 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 07:56:25,988 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:56:25,988 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:56:25,988 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f87ad05a0f0>
+2021-03-17 07:56:26,032 dellemc_powerstore_volume.py INFO : Creating volume test-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-17 07:56:26,350 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-17 07:56:26,350 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 07:56:31,842 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:56:31,842 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:56:31,842 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9eb74940f0>
+2021-03-17 07:56:31,987 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 07:56:31,987 dellemc_powerstore_volume.py INFO : Mapping volume test-vm-ansible-vol01 to host demo-test-vm with HLU None
+2021-03-17 07:56:32,731 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:56:32,731 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:56:32,731 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f8fb45950f0>
+2021-03-17 07:56:32,857 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 07:56:32,857 dellemc_powerstore_volume.py INFO : Mapping volume test-vm-ansible-vol02 to host demo-test-vm with HLU None
+2021-03-17 07:56:39,213 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:56:39,213 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:56:39,213 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f7c98f3b0f0>
+2021-03-17 07:56:39,294 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 07:56:39,743 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:56:39,744 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:56:39,744 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f006a8780f0>
+2021-03-17 07:56:39,827 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 07:57:06,422 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:57:06,422 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:57:06,422 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fa27a7630f0>
+2021-03-17 07:57:06,554 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 07:57:06,554 dellemc_powerstore_volume.py INFO : Unmapping volume test-vm-ansible-vol01 from host demo-test-vm
+2021-03-17 07:57:07,239 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:57:07,239 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:57:07,239 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f1affef60f0>
+2021-03-17 07:57:07,362 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 07:57:07,362 dellemc_powerstore_volume.py INFO : Unmapping volume test-vm-ansible-vol02 from host demo-test-vm
+2021-03-17 07:57:08,004 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:57:08,004 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:57:08,004 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f27e94b10f0>
+2021-03-17 07:57:08,091 dellemc_powerstore_volume.py INFO : Deleting volume test-vm-ansible-vol01 
+2021-03-17 07:57:08,091 dellemc_powerstore_volume.py INFO : Deleting volume test-vm-ansible-vol01
+2021-03-17 07:57:08,757 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:57:08,757 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:57:08,757 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f13e7ba20f0>
+2021-03-17 07:57:08,844 dellemc_powerstore_volume.py INFO : Deleting volume test-vm-ansible-vol02 
+2021-03-17 07:57:08,844 dellemc_powerstore_volume.py INFO : Deleting volume test-vm-ansible-vol02
+2021-03-17 07:57:09,440 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:57:09,440 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:57:09,440 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f271d5910f0>
+2021-03-17 07:57:09,484 dellemc_powerstore_host.py INFO : Getting host f009b79a-bf43-47ac-a23e-e627fd1380e5 details
+2021-03-17 07:57:09,521 dellemc_powerstore_host.py INFO : Delete host demo-test-vm 
+2021-03-17 07:57:09,762 dellemc_powerstore_host.py INFO : changed True
+2021-03-17 07:57:26,607 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:57:26,607 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:57:26,607 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ffb722fa0f0>
+2021-03-17 07:57:26,731 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 07:57:26,731 dellemc_powerstore_volume.py INFO : Unmapping volume test-vm-AnsibleDemo-DS from hostgroup MX7000-HostGroup
+2021-03-17 07:57:27,420 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 07:57:27,420 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 07:57:27,420 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f381bd130f0>
+2021-03-17 07:57:27,500 dellemc_powerstore_volume.py INFO : Deleting volume test-vm-AnsibleDemo-DS 
+2021-03-17 07:57:27,500 dellemc_powerstore_volume.py INFO : Deleting volume test-vm-AnsibleDemo-DS
+2021-03-17 09:09:33,383 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:09:33,383 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:09:33,383 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f58d4d540f0>
+2021-03-17 09:09:33,432 dellemc_powerstore_volume.py INFO : Creating volume test-vm-AnsibleDemo-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-17 09:09:33,941 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-17 09:09:33,941 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:09:42,909 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:09:42,909 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:09:42,909 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f09d79c60f0>
+2021-03-17 09:09:43,034 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:09:43,034 dellemc_powerstore_volume.py INFO : Mapping volume test-vm-AnsibleDemo-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-17 09:10:21,258 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:10:21,259 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:10:21,259 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fb81bf910f0>
+2021-03-17 09:10:21,307 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-17 09:10:21,307 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-17 09:10:21,650 dellemc_powerstore_host.py INFO : the response is {'id': '467438b1-b5cf-4fde-871e-087b9d8539ae'}
+2021-03-17 09:10:21,745 dellemc_powerstore_host.py INFO : Getting host 467438b1-b5cf-4fde-871e-087b9d8539ae details
+2021-03-17 09:10:21,792 dellemc_powerstore_host.py INFO : changed True
+2021-03-17 09:10:24,097 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:10:24,097 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:10:24,097 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f1d1c06b0f0>
+2021-03-17 09:10:24,154 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-17 09:10:24,539 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-17 09:10:24,539 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:10:24,992 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:10:24,992 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:10:24,992 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4a696d40f0>
+2021-03-17 09:10:25,046 dellemc_powerstore_volume.py INFO : Creating volume test-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-17 09:10:25,634 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-17 09:10:25,634 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:10:29,055 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:10:29,055 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:10:29,055 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f47f99850f0>
+2021-03-17 09:10:29,174 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:10:29,174 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-17 09:10:29,838 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:10:29,838 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:10:29,838 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f04908460f0>
+2021-03-17 09:10:29,959 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:10:29,959 dellemc_powerstore_volume.py INFO : Mapping volume test-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-17 09:10:31,849 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:10:31,850 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:10:31,850 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fba373370f0>
+2021-03-17 09:10:31,932 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:10:32,377 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:10:32,377 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:10:32,377 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fc9891af0f0>
+2021-03-17 09:10:32,460 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:12:38,449 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:12:38,449 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:12:38,449 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fdde11400f0>
+2021-03-17 09:12:38,532 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-17 09:12:38,532 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:12:40,859 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:12:40,860 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:12:40,860 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fd059f380f0>
+2021-03-17 09:12:41,004 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:12:41,004 dellemc_powerstore_volume.py INFO : Volume test-vm-AnsibleDemo-DS is already mapped to hostgroup MX7000-HostGroup
+2021-03-17 09:13:04,912 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:13:04,913 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:13:04,913 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fd8e81ac0f0>
+2021-03-17 09:13:04,986 dellemc_powerstore_host.py INFO : Getting host 467438b1-b5cf-4fde-871e-087b9d8539ae details
+2021-03-17 09:13:05,055 dellemc_powerstore_host.py INFO : Adding initiators to host 467438b1-b5cf-4fde-871e-087b9d8539ae
+2021-03-17 09:13:05,056 dellemc_powerstore_host.py INFO : Initiators are already present in host demo-vm
+2021-03-17 09:13:05,097 dellemc_powerstore_host.py INFO : Getting host 467438b1-b5cf-4fde-871e-087b9d8539ae details
+2021-03-17 09:13:05,138 dellemc_powerstore_host.py INFO : changed False
+2021-03-17 09:13:11,555 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:13:11,555 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:13:11,555 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f7754aa90f0>
+2021-03-17 09:13:11,680 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-17 09:13:11,680 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:13:12,129 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:13:12,129 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:13:12,129 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff63a5a20f0>
+2021-03-17 09:13:12,173 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-17 09:13:12,526 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-17 09:13:12,526 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:13:15,572 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:13:15,572 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:13:15,572 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2dd93680f0>
+2021-03-17 09:13:15,707 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:13:15,707 dellemc_powerstore_volume.py INFO : Volume demo-vm-ansible-vol01 is already mapped to host demo-vm
+2021-03-17 09:13:16,188 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:13:16,188 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:13:16,188 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fd30d5790f0>
+2021-03-17 09:13:16,327 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:13:16,327 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-17 09:13:18,401 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:13:18,401 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:13:18,401 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fab6da7d0f0>
+2021-03-17 09:13:18,485 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:13:18,927 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:13:18,927 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:13:18,927 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f8bc05900f0>
+2021-03-17 09:13:19,009 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:13:29,963 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:13:29,963 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:13:29,963 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f01b956b0f0>
+2021-03-17 09:13:30,090 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:13:30,090 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-17 09:13:30,749 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:13:30,750 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:13:30,750 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fa971a850f0>
+2021-03-17 09:13:30,870 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:13:30,870 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-17 09:13:31,580 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:13:31,580 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:13:31,580 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f19fef040f0>
+2021-03-17 09:13:31,667 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-17 09:13:31,667 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-17 09:13:32,424 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:13:32,424 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:13:32,424 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fdd3e1e80f0>
+2021-03-17 09:13:32,516 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-17 09:13:32,516 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-17 09:13:33,172 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:13:33,172 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:13:33,172 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4f900ed0f0>
+2021-03-17 09:13:33,215 dellemc_powerstore_host.py INFO : Getting host 467438b1-b5cf-4fde-871e-087b9d8539ae details
+2021-03-17 09:13:33,255 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-17 09:13:33,339 dellemc_powerstore_host.py ERROR : Delete host demo-vm failed with error HTTP code: 400, Bad Request [{'messages': [{'code': '0xE0A010010022', 'severity': 'Error', 'message_l10n': 'Host demo-vm is attached to one or more volumes. Please detach it before deleting.', 'arguments': ['demo-vm']}]}]
+2021-03-17 09:17:35,757 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:17:35,758 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:17:35,758 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f494c8f60f0>
+2021-03-17 09:17:35,811 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-17 09:17:36,174 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-17 09:17:36,174 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:17:41,100 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:17:41,100 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:17:41,101 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fda12c990f0>
+2021-03-17 09:17:41,220 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:17:41,220 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-17 09:18:23,404 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:18:23,404 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:18:23,404 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f56aabc60f0>
+2021-03-17 09:18:23,455 dellemc_powerstore_host.py INFO : Getting host 467438b1-b5cf-4fde-871e-087b9d8539ae details
+2021-03-17 09:18:23,492 dellemc_powerstore_host.py INFO : Adding initiators to host 467438b1-b5cf-4fde-871e-087b9d8539ae
+2021-03-17 09:18:23,492 dellemc_powerstore_host.py INFO : Initiators are already present in host demo-vm
+2021-03-17 09:18:23,532 dellemc_powerstore_host.py INFO : Getting host 467438b1-b5cf-4fde-871e-087b9d8539ae details
+2021-03-17 09:18:23,569 dellemc_powerstore_host.py INFO : changed False
+2021-03-17 09:18:28,300 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:18:28,300 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:18:28,301 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2b7529d0f0>
+2021-03-17 09:18:28,357 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-17 09:18:28,730 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-17 09:18:28,730 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:18:29,202 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:18:29,202 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:18:29,202 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fdbf8a1e0f0>
+2021-03-17 09:18:29,248 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-17 09:18:29,624 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-17 09:18:29,624 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:18:32,720 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:18:32,720 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:18:32,720 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f886f9e20f0>
+2021-03-17 09:18:32,845 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:18:32,845 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-17 09:18:33,573 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:18:33,573 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:18:33,574 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f15c04530f0>
+2021-03-17 09:18:33,816 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:18:33,817 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-17 09:18:38,921 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:18:38,921 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:18:38,921 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4ee41890f0>
+2021-03-17 09:18:39,002 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:18:39,441 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:18:39,441 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:18:39,441 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f03f8d3e0f0>
+2021-03-17 09:18:39,520 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:19:24,976 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:19:24,976 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:19:24,976 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f8076d0d0f0>
+2021-03-17 09:19:25,118 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:19:25,119 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-17 09:19:25,777 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:19:25,777 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:19:25,777 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7efe7b1b40f0>
+2021-03-17 09:19:25,899 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:19:25,899 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-17 09:19:26,555 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:19:26,555 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:19:26,555 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f6aef24b0f0>
+2021-03-17 09:19:26,637 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-17 09:19:26,637 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-17 09:19:27,248 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:19:27,248 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:19:27,249 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f6d0ede90f0>
+2021-03-17 09:19:27,341 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-17 09:19:27,341 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-17 09:19:27,973 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:19:27,973 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:19:27,973 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9c54ac40f0>
+2021-03-17 09:19:28,018 dellemc_powerstore_host.py INFO : Getting host 467438b1-b5cf-4fde-871e-087b9d8539ae details
+2021-03-17 09:19:28,057 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-17 09:19:28,348 dellemc_powerstore_host.py INFO : changed True
+2021-03-17 09:19:37,556 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:19:37,556 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:19:37,556 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f7c238220f0>
+2021-03-17 09:19:37,737 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 09:19:37,737 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-17 09:19:38,435 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 09:19:38,435 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 09:19:38,435 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2afc4e40f0>
+2021-03-17 09:19:38,515 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-17 09:19:38,515 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-17 13:15:13,391 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:15:13,391 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:15:13,391 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fac6e2d50f0>
+2021-03-17 13:15:13,464 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-17 13:15:14,073 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-17 13:15:14,073 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:15:56,142 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:15:56,142 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:15:56,142 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f0d842880f0>
+2021-03-17 13:15:56,283 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:15:56,283 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-17 13:17:39,328 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:17:39,328 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:17:39,328 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fc9fed870f0>
+2021-03-17 13:17:39,396 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-17 13:17:39,396 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-17 13:17:39,969 dellemc_powerstore_host.py INFO : the response is {'id': 'd6a3061c-f9ab-4369-8a47-15c145298d63'}
+2021-03-17 13:17:40,067 dellemc_powerstore_host.py INFO : Getting host d6a3061c-f9ab-4369-8a47-15c145298d63 details
+2021-03-17 13:17:40,109 dellemc_powerstore_host.py INFO : changed True
+2021-03-17 13:18:03,973 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:18:03,973 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:18:03,973 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f548bd450f0>
+2021-03-17 13:18:04,041 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-17 13:18:04,368 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-17 13:18:04,368 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:18:04,815 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:18:04,816 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:18:04,816 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f0ce75840f0>
+2021-03-17 13:18:04,860 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-17 13:18:05,233 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-17 13:18:05,233 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:18:42,667 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:18:42,667 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:18:42,667 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fcb6d0e50f0>
+2021-03-17 13:18:42,800 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:18:42,800 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-17 13:18:43,594 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:18:43,594 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:18:43,594 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff42db6a0f0>
+2021-03-17 13:18:43,720 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:18:43,720 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-17 13:19:10,622 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:19:10,622 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:19:10,623 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f00c304f0f0>
+2021-03-17 13:19:10,712 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:19:11,157 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:19:11,157 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:19:11,157 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fb6fb0a90f0>
+2021-03-17 13:19:11,243 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:21:29,866 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:21:29,866 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:21:29,866 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f06664ce0f0>
+2021-03-17 13:21:29,995 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:21:29,996 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-17 13:21:30,799 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:21:30,799 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:21:30,799 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f69e822b0f0>
+2021-03-17 13:21:30,926 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:21:30,926 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-17 13:21:31,923 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:21:31,923 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:21:31,924 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f71fafa00f0>
+2021-03-17 13:21:32,019 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-17 13:21:32,019 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-17 13:21:32,729 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:21:32,729 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:21:32,729 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff8aee4e0f0>
+2021-03-17 13:21:32,834 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-17 13:21:32,834 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-17 13:21:33,475 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:21:33,475 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:21:33,475 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f5a58a130f0>
+2021-03-17 13:21:33,521 dellemc_powerstore_host.py INFO : Getting host d6a3061c-f9ab-4369-8a47-15c145298d63 details
+2021-03-17 13:21:33,582 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-17 13:21:33,984 dellemc_powerstore_host.py INFO : changed True
+2021-03-17 13:21:58,596 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:21:58,596 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:21:58,596 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ffb04aac0f0>
+2021-03-17 13:21:58,722 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:21:58,723 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-17 13:21:59,398 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:21:59,398 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:21:59,398 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f60c86450f0>
+2021-03-17 13:21:59,480 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-17 13:21:59,480 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-17 13:51:26,047 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:51:26,048 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:51:26,048 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2f0bc290f0>
+2021-03-17 13:51:26,098 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-17 13:51:26,483 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-17 13:51:26,483 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:51:53,642 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:51:53,642 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:51:53,642 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe7c34d80f0>
+2021-03-17 13:51:53,895 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:51:53,895 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-17 13:54:07,290 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:54:07,290 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:54:07,290 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f1ebdd4a0f0>
+2021-03-17 13:54:07,331 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-17 13:54:07,332 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-17 13:54:07,751 dellemc_powerstore_host.py INFO : the response is {'id': 'd7e2641e-5823-4d51-b73c-6b01507c474c'}
+2021-03-17 13:54:07,844 dellemc_powerstore_host.py INFO : Getting host d7e2641e-5823-4d51-b73c-6b01507c474c details
+2021-03-17 13:54:07,886 dellemc_powerstore_host.py INFO : changed True
+2021-03-17 13:54:26,855 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:54:26,855 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:54:26,855 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f22c628a0f0>
+2021-03-17 13:54:26,902 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-17 13:54:27,326 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-17 13:54:27,326 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:54:27,775 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:54:27,776 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:54:27,776 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fb41c1210f0>
+2021-03-17 13:54:27,820 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-17 13:54:28,152 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-17 13:54:28,152 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:54:44,338 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:54:44,338 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:54:44,338 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff0fe1140f0>
+2021-03-17 13:54:44,464 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:54:44,464 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-17 13:54:45,333 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:54:45,333 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:54:45,333 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f679de4c0f0>
+2021-03-17 13:54:45,482 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:54:45,482 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-17 13:55:56,657 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:55:56,657 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:55:56,657 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff3c3f650f0>
+2021-03-17 13:55:56,744 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:55:57,190 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:55:57,190 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:55:57,190 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f065203d0f0>
+2021-03-17 13:55:57,275 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:58:30,902 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:58:30,903 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:58:30,903 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fc3c04860f0>
+2021-03-17 13:58:31,028 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:58:31,028 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-17 13:58:31,649 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:58:31,649 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:58:31,649 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2fed1b60f0>
+2021-03-17 13:58:31,837 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:58:31,837 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-17 13:58:32,492 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:58:32,492 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:58:32,492 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f12b56c80f0>
+2021-03-17 13:58:32,579 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-17 13:58:32,580 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-17 13:58:33,217 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:58:33,217 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:58:33,217 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fee9e95d0f0>
+2021-03-17 13:58:33,301 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-17 13:58:33,301 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-17 13:58:34,048 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:58:34,048 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:58:34,048 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f13f19f80f0>
+2021-03-17 13:58:34,093 dellemc_powerstore_host.py INFO : Getting host d7e2641e-5823-4d51-b73c-6b01507c474c details
+2021-03-17 13:58:34,134 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-17 13:58:34,408 dellemc_powerstore_host.py INFO : changed True
+2021-03-17 13:58:59,779 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:58:59,779 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:58:59,779 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f66e48fa0f0>
+2021-03-17 13:58:59,900 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-17 13:58:59,901 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-17 13:59:00,635 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-17 13:59:00,636 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-17 13:59:00,636 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fabdab3f0f0>
+2021-03-17 13:59:00,719 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-17 13:59:00,719 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-18 14:36:27,587 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:36:27,587 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:36:27,587 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff0509a60f0>
+2021-03-18 14:36:27,633 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-18 14:36:28,007 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-18 14:36:28,007 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-18 14:36:57,402 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:36:57,402 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:36:57,402 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f99cf01b0f0>
+2021-03-18 14:36:57,551 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-18 14:36:57,551 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-18 14:39:26,548 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:39:26,548 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:39:26,548 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2a8a0720f0>
+2021-03-18 14:39:26,644 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-18 14:39:26,644 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-18 14:39:27,258 dellemc_powerstore_host.py INFO : the response is {'id': '61558dd8-6efe-45d9-8022-e2a6b81c955a'}
+2021-03-18 14:39:27,409 dellemc_powerstore_host.py INFO : Getting host 61558dd8-6efe-45d9-8022-e2a6b81c955a details
+2021-03-18 14:39:27,456 dellemc_powerstore_host.py INFO : changed True
+2021-03-18 14:40:19,409 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:40:19,409 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:40:19,409 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe53402b0f0>
+2021-03-18 14:40:19,455 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-18 14:40:19,781 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-18 14:40:19,781 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-18 14:40:20,224 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:40:20,224 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:40:20,224 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f389f6b30f0>
+2021-03-18 14:40:20,267 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-18 14:40:20,720 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-18 14:40:20,720 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-18 14:40:46,088 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:40:46,088 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:40:46,088 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f49ccfc40f0>
+2021-03-18 14:40:46,214 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-18 14:40:46,215 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-18 14:40:46,902 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:40:46,902 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:40:46,902 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9a94f710f0>
+2021-03-18 14:40:47,039 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-18 14:40:47,039 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-18 14:41:26,139 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:41:26,139 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:41:26,139 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4a7535f0f0>
+2021-03-18 14:41:26,230 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-18 14:41:26,678 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:41:26,678 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:41:26,678 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fd7372f70f0>
+2021-03-18 14:41:26,763 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-18 14:43:43,027 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:43:43,027 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:43:43,028 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fab64c8b0f0>
+2021-03-18 14:43:43,155 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-18 14:43:43,155 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-18 14:43:43,830 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:43:43,830 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:43:43,830 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fc430acd0f0>
+2021-03-18 14:43:43,948 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-18 14:43:43,949 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-18 14:43:44,608 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:43:44,608 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:43:44,608 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f347d7d00f0>
+2021-03-18 14:43:44,693 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-18 14:43:44,693 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-18 14:43:45,402 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:43:45,402 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:43:45,402 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f824a7540f0>
+2021-03-18 14:43:45,483 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-18 14:43:45,483 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-18 14:43:46,104 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:43:46,104 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:43:46,104 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f3b121560f0>
+2021-03-18 14:43:46,145 dellemc_powerstore_host.py INFO : Getting host 61558dd8-6efe-45d9-8022-e2a6b81c955a details
+2021-03-18 14:43:46,187 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-18 14:43:46,415 dellemc_powerstore_host.py INFO : changed True
+2021-03-18 14:44:11,295 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:44:11,296 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:44:11,296 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f3d56d220f0>
+2021-03-18 14:44:11,419 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-18 14:44:11,419 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-18 14:44:12,060 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-18 14:44:12,060 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-18 14:44:12,060 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9821e7c0f0>
+2021-03-18 14:44:12,142 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-18 14:44:12,142 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-19 09:52:24,266 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:52:24,267 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:52:24,267 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ffa63c1e0f0>
+2021-03-19 09:52:24,315 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-19 09:52:24,772 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-19 09:52:24,772 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:52:26,793 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:52:26,793 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:52:26,793 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fa63103b0f0>
+2021-03-19 09:52:26,911 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:52:26,911 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-19 09:53:07,538 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:53:07,538 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:53:07,538 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f7479ae50f0>
+2021-03-19 09:53:07,644 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-19 09:53:07,644 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:53:23,752 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:53:23,752 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:53:23,752 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f532db480f0>
+2021-03-19 09:53:23,879 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:53:23,879 dellemc_powerstore_volume.py INFO : Volume mx-demo-Ansible-DS is already mapped to hostgroup MX7000-HostGroup
+2021-03-19 09:54:37,261 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:54:37,261 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:54:37,261 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe173ad50f0>
+2021-03-19 09:54:37,349 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-19 09:54:37,349 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:54:48,311 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:54:48,311 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:54:48,311 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fd069d6c0f0>
+2021-03-19 09:54:48,437 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:54:48,437 dellemc_powerstore_volume.py INFO : Volume mx-demo-Ansible-DS is already mapped to hostgroup MX7000-HostGroup
+2021-03-19 09:55:28,951 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:55:28,951 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:55:28,951 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f6829a4a0f0>
+2021-03-19 09:55:28,992 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-19 09:55:28,992 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-19 09:55:29,297 dellemc_powerstore_host.py INFO : the response is {'id': '891c1934-5fda-4db8-8741-0adc35770f36'}
+2021-03-19 09:55:29,405 dellemc_powerstore_host.py INFO : Getting host 891c1934-5fda-4db8-8741-0adc35770f36 details
+2021-03-19 09:55:29,446 dellemc_powerstore_host.py INFO : changed True
+2021-03-19 09:55:31,324 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:55:31,325 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:55:31,325 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fa4269bd0f0>
+2021-03-19 09:55:31,370 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-19 09:55:31,724 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-19 09:55:31,724 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:55:32,176 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:55:32,176 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:55:32,177 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fa7ed2e60f0>
+2021-03-19 09:55:32,221 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-19 09:55:32,585 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-19 09:55:32,585 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:55:34,807 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:55:34,807 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:55:34,807 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f0cbbfe40f0>
+2021-03-19 09:55:34,927 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:55:34,928 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-19 09:55:35,706 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:55:35,706 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:55:35,706 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f5321d480f0>
+2021-03-19 09:55:35,828 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:55:35,828 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-19 09:55:47,968 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:55:47,968 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:55:47,969 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fa0af3d10f0>
+2021-03-19 09:55:48,058 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:55:48,557 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:55:48,557 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:55:48,557 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f07d70650f0>
+2021-03-19 09:55:48,641 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:55:59,580 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:55:59,580 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:55:59,580 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f85f83820f0>
+2021-03-19 09:55:59,702 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:55:59,702 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-19 09:56:00,345 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:56:00,345 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:56:00,345 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fbec075b0f0>
+2021-03-19 09:56:00,467 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:56:00,467 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-19 09:56:01,145 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:56:01,145 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:56:01,145 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f3208cb60f0>
+2021-03-19 09:56:01,229 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-19 09:56:01,229 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-19 09:56:01,873 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:56:01,873 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:56:01,873 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2d0fdfa0f0>
+2021-03-19 09:56:01,961 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-19 09:56:01,961 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-19 09:56:02,645 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:56:02,645 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:56:02,646 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f1a4c07c0f0>
+2021-03-19 09:56:02,702 dellemc_powerstore_host.py INFO : Getting host 891c1934-5fda-4db8-8741-0adc35770f36 details
+2021-03-19 09:56:02,763 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-19 09:56:03,100 dellemc_powerstore_host.py INFO : changed True
+2021-03-19 09:56:19,656 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:56:19,656 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:56:19,656 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2383beb0f0>
+2021-03-19 09:56:19,785 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 09:56:19,785 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-19 09:56:20,465 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 09:56:20,465 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 09:56:20,465 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f668d5ee0f0>
+2021-03-19 09:56:20,549 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-19 09:56:20,549 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-19 12:41:32,492 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:41:32,493 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:41:32,493 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ffbf1ab30f0>
+2021-03-19 12:41:32,541 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-19 12:41:32,907 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-19 12:41:32,907 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:41:38,647 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:41:38,647 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:41:38,647 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff4fad320f0>
+2021-03-19 12:41:38,784 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:41:38,784 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-19 12:42:24,408 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:42:24,408 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:42:24,409 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fdd4cf600f0>
+2021-03-19 12:42:24,498 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-19 12:42:24,498 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:42:26,079 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:42:26,079 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:42:26,079 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe70b81d0f0>
+2021-03-19 12:42:26,198 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:42:26,198 dellemc_powerstore_volume.py INFO : Volume mx-demo-Ansible-DS is already mapped to hostgroup MX7000-HostGroup
+2021-03-19 12:43:25,477 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:43:25,477 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:43:25,478 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fcfe6e780f0>
+2021-03-19 12:43:25,523 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-19 12:43:25,523 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-19 12:43:25,837 dellemc_powerstore_host.py INFO : the response is {'id': '27f5b428-31a9-4f79-a3bf-ff39553c8176'}
+2021-03-19 12:43:25,923 dellemc_powerstore_host.py INFO : Getting host 27f5b428-31a9-4f79-a3bf-ff39553c8176 details
+2021-03-19 12:43:26,011 dellemc_powerstore_host.py INFO : changed True
+2021-03-19 12:43:47,667 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:43:47,667 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:43:47,667 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f6d858b20f0>
+2021-03-19 12:43:47,723 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-19 12:43:48,100 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-19 12:43:48,100 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:43:48,565 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:43:48,565 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:43:48,565 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fb716a520f0>
+2021-03-19 12:43:48,610 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-19 12:43:48,923 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-19 12:43:48,923 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:43:53,131 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:43:53,131 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:43:53,131 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f406a3910f0>
+2021-03-19 12:43:53,255 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:43:53,255 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-19 12:43:54,465 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:43:54,465 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:43:54,465 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f1c1ac3a0f0>
+2021-03-19 12:43:54,645 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:43:54,645 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-19 12:43:56,953 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:43:56,953 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:43:56,953 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fc122af90f0>
+2021-03-19 12:43:57,062 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:43:57,506 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:43:57,506 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:43:57,506 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f3189ec10f0>
+2021-03-19 12:43:57,586 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:44:08,457 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:44:08,458 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:44:08,458 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fda81bee0f0>
+2021-03-19 12:44:08,579 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:44:08,579 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-19 12:44:09,210 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:44:09,210 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:44:09,210 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f13d44180f0>
+2021-03-19 12:44:09,345 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:44:09,345 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-19 12:44:10,022 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:44:10,022 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:44:10,022 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fdacefc40f0>
+2021-03-19 12:44:10,131 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-19 12:44:10,131 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-19 12:44:10,783 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:44:10,783 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:44:10,783 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe5fa68a0f0>
+2021-03-19 12:44:10,889 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-19 12:44:10,889 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-19 12:44:11,578 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:44:11,578 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:44:11,578 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fef5f4250f0>
+2021-03-19 12:44:11,622 dellemc_powerstore_host.py INFO : Getting host 27f5b428-31a9-4f79-a3bf-ff39553c8176 details
+2021-03-19 12:44:11,668 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-19 12:44:11,987 dellemc_powerstore_host.py INFO : changed True
+2021-03-19 12:44:21,199 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:44:21,199 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:44:21,199 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9a133e20f0>
+2021-03-19 12:44:21,321 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:44:21,321 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-19 12:44:22,027 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:44:22,027 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:44:22,028 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f8239a5c0f0>
+2021-03-19 12:44:22,108 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-19 12:44:22,108 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-19 12:45:17,782 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:45:17,782 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:45:17,782 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7efefdb9f0f0>
+2021-03-19 12:45:17,842 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-19 12:45:18,206 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-19 12:45:18,206 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:45:24,960 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:45:24,960 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:45:24,960 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2d309fe0f0>
+2021-03-19 12:45:25,126 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:45:25,126 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-19 12:45:59,053 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:45:59,053 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:45:59,053 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f051e1c60f0>
+2021-03-19 12:45:59,098 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-19 12:45:59,098 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-19 12:45:59,436 dellemc_powerstore_host.py INFO : the response is {'id': '8a0cd587-b12d-40d6-b0ee-71f4a7a78404'}
+2021-03-19 12:45:59,545 dellemc_powerstore_host.py INFO : Getting host 8a0cd587-b12d-40d6-b0ee-71f4a7a78404 details
+2021-03-19 12:45:59,583 dellemc_powerstore_host.py INFO : changed True
+2021-03-19 12:46:05,251 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:46:05,251 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:46:05,251 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f149d39d0f0>
+2021-03-19 12:46:05,300 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-19 12:46:05,629 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-19 12:46:05,629 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:46:06,085 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:46:06,085 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:46:06,085 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4e175e50f0>
+2021-03-19 12:46:06,128 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-19 12:46:06,464 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-19 12:46:06,464 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:46:09,246 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:46:09,246 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:46:09,246 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7feb0d2c60f0>
+2021-03-19 12:46:09,369 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:46:09,369 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-19 12:46:10,008 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:46:10,008 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:46:10,008 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f43d39830f0>
+2021-03-19 12:46:10,131 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:46:10,131 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-19 12:46:14,156 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:46:14,156 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:46:14,156 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f09b06bf0f0>
+2021-03-19 12:46:14,238 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:46:14,683 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:46:14,683 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:46:14,683 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f24fbdd20f0>
+2021-03-19 12:46:14,775 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:46:32,480 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:46:32,480 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:46:32,480 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f218efe40f0>
+2021-03-19 12:46:32,603 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:46:32,603 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-19 12:46:33,369 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:46:33,369 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:46:33,370 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f91e51370f0>
+2021-03-19 12:46:33,491 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:46:33,492 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-19 12:46:34,435 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:46:34,435 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:46:34,435 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f40561c00f0>
+2021-03-19 12:46:34,543 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-19 12:46:34,543 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-19 12:46:35,320 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:46:35,320 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:46:35,320 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe5fd3590f0>
+2021-03-19 12:46:35,420 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-19 12:46:35,420 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-19 12:46:36,144 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:46:36,144 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:46:36,144 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f76cde7b0f0>
+2021-03-19 12:46:36,187 dellemc_powerstore_host.py INFO : Getting host 8a0cd587-b12d-40d6-b0ee-71f4a7a78404 details
+2021-03-19 12:46:36,228 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-19 12:46:36,482 dellemc_powerstore_host.py INFO : changed True
+2021-03-19 12:46:44,902 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:46:44,902 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:46:44,902 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2a3aff90f0>
+2021-03-19 12:46:45,033 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 12:46:45,033 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-19 12:46:45,734 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 12:46:45,735 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 12:46:45,735 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f8baf7f60f0>
+2021-03-19 12:46:45,816 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-19 12:46:45,816 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-19 22:44:11,259 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:44:11,260 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:44:11,260 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe77c9020f0>
+2021-03-19 22:44:11,317 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-19 22:44:11,715 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-19 22:44:11,715 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 22:44:19,158 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:44:19,158 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:44:19,158 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f3b997400f0>
+2021-03-19 22:44:19,275 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 22:44:19,275 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-19 22:51:58,893 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:51:58,893 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:51:58,893 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f6c84da00f0>
+2021-03-19 22:51:58,939 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-19 22:51:58,939 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-19 22:51:59,270 dellemc_powerstore_host.py INFO : the response is {'id': 'c4ae6116-7a41-49ad-963a-83cf63387da1'}
+2021-03-19 22:51:59,374 dellemc_powerstore_host.py INFO : Getting host c4ae6116-7a41-49ad-963a-83cf63387da1 details
+2021-03-19 22:51:59,412 dellemc_powerstore_host.py INFO : changed True
+2021-03-19 22:52:16,541 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:52:16,541 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:52:16,541 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9da18cf0f0>
+2021-03-19 22:52:16,597 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-19 22:52:16,993 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-19 22:52:16,993 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 22:52:17,436 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:52:17,436 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:52:17,436 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2d00ee30f0>
+2021-03-19 22:52:17,480 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-19 22:52:17,848 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-19 22:52:17,848 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 22:52:22,942 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:52:22,942 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:52:22,942 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f25591080f0>
+2021-03-19 22:52:23,067 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 22:52:23,067 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-19 22:52:23,881 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:52:23,881 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:52:23,881 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f94088c10f0>
+2021-03-19 22:52:24,034 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 22:52:24,034 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-19 22:52:26,986 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:52:26,986 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:52:26,986 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f514827a0f0>
+2021-03-19 22:52:27,067 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 22:52:27,514 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:52:27,514 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:52:27,514 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f1f3fc2a0f0>
+2021-03-19 22:52:27,598 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 22:52:45,470 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:52:45,470 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:52:45,470 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fef1a22b0f0>
+2021-03-19 22:52:45,623 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 22:52:45,623 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-19 22:52:46,336 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:52:46,336 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:52:46,336 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f8426b2d0f0>
+2021-03-19 22:52:46,453 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 22:52:46,453 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-19 22:52:47,113 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:52:47,113 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:52:47,113 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f6b0ec2e0f0>
+2021-03-19 22:52:47,194 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-19 22:52:47,194 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-19 22:52:47,846 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:52:47,846 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:52:47,846 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fec5e0a90f0>
+2021-03-19 22:52:47,927 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-19 22:52:47,927 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-19 22:52:48,569 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:52:48,569 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:52:48,569 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff08cb570f0>
+2021-03-19 22:52:48,620 dellemc_powerstore_host.py INFO : Getting host c4ae6116-7a41-49ad-963a-83cf63387da1 details
+2021-03-19 22:52:48,656 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-19 22:52:48,898 dellemc_powerstore_host.py INFO : changed True
+2021-03-19 22:52:57,509 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:52:57,509 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:52:57,509 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f77c70c10f0>
+2021-03-19 22:52:57,632 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 22:52:57,632 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-19 22:52:58,302 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 22:52:58,302 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 22:52:58,302 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f5de380c0f0>
+2021-03-19 22:52:58,383 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-19 22:52:58,383 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-19 23:14:56,271 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:14:56,271 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:14:56,271 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe4dab8d0f0>
+2021-03-19 23:14:56,324 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-19 23:14:56,783 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-19 23:14:56,783 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 23:15:01,073 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:15:01,073 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:15:01,073 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f67d352a0f0>
+2021-03-19 23:15:01,190 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 23:15:01,190 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-19 23:24:28,594 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:24:28,595 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:24:28,595 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f80121350f0>
+2021-03-19 23:24:28,645 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-19 23:24:28,645 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-19 23:24:28,970 dellemc_powerstore_host.py INFO : the response is {'id': '9ba9cee9-accc-407c-bef0-a53a891694ba'}
+2021-03-19 23:24:29,075 dellemc_powerstore_host.py INFO : Getting host 9ba9cee9-accc-407c-bef0-a53a891694ba details
+2021-03-19 23:24:29,112 dellemc_powerstore_host.py INFO : changed True
+2021-03-19 23:24:47,646 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:24:47,646 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:24:47,646 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fcf028290f0>
+2021-03-19 23:24:47,698 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-19 23:24:48,115 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-19 23:24:48,116 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 23:24:48,608 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:24:48,608 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:24:48,608 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe9880e60f0>
+2021-03-19 23:24:48,652 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-19 23:24:49,026 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-19 23:24:49,026 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 23:24:51,188 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:24:51,188 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:24:51,188 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4b2abeb0f0>
+2021-03-19 23:24:51,309 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 23:24:51,309 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-19 23:24:51,974 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:24:51,974 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:24:51,974 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fdb3102d0f0>
+2021-03-19 23:24:52,110 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 23:24:52,110 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-19 23:25:02,182 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:25:02,182 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:25:02,182 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff23df660f0>
+2021-03-19 23:25:02,261 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 23:25:02,706 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:25:02,706 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:25:02,706 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fdad0a190f0>
+2021-03-19 23:25:02,793 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 23:25:19,301 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:25:19,301 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:25:19,302 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f320ab6f0f0>
+2021-03-19 23:25:19,441 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 23:25:19,441 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-19 23:25:20,111 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:25:20,111 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:25:20,111 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fb7bcccd0f0>
+2021-03-19 23:25:20,237 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 23:25:20,237 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-19 23:25:20,951 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:25:20,951 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:25:20,951 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f86f64120f0>
+2021-03-19 23:25:21,045 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-19 23:25:21,045 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-19 23:25:21,690 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:25:21,690 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:25:21,690 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff8a43100f0>
+2021-03-19 23:25:21,772 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-19 23:25:21,772 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-19 23:25:22,405 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:25:22,405 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:25:22,405 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f85f152b0f0>
+2021-03-19 23:25:22,445 dellemc_powerstore_host.py INFO : Getting host 9ba9cee9-accc-407c-bef0-a53a891694ba details
+2021-03-19 23:25:22,482 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-19 23:25:22,771 dellemc_powerstore_host.py INFO : changed True
+2021-03-19 23:25:31,304 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:25:31,304 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:25:31,304 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fd4cb1590f0>
+2021-03-19 23:25:31,503 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-19 23:25:31,503 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-19 23:25:32,136 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-19 23:25:32,136 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-19 23:25:32,136 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe4150e60f0>
+2021-03-19 23:25:32,218 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-19 23:25:32,218 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-20 00:09:22,413 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:09:22,415 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:09:22,415 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fb72bbc20f0>
+2021-03-20 00:09:22,484 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-20 00:09:22,917 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-20 00:09:22,917 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:09:35,359 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:09:35,359 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:09:35,359 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4184b540f0>
+2021-03-20 00:09:35,487 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:09:35,487 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-20 00:24:57,277 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:24:57,277 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:24:57,277 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe8f2bea0f0>
+2021-03-20 00:24:57,324 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-20 00:24:57,324 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-20 00:24:57,634 dellemc_powerstore_host.py INFO : the response is {'id': 'bd84cffe-e021-44b2-aa00-7392899fd0c2'}
+2021-03-20 00:24:57,730 dellemc_powerstore_host.py INFO : Getting host bd84cffe-e021-44b2-aa00-7392899fd0c2 details
+2021-03-20 00:24:57,772 dellemc_powerstore_host.py INFO : changed True
+2021-03-20 00:33:20,282 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:33:20,282 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:33:20,283 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f3c7bbe70f0>
+2021-03-20 00:33:20,329 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-20 00:33:20,678 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-20 00:33:20,678 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:33:21,123 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:33:21,123 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:33:21,123 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9cbabeb0f0>
+2021-03-20 00:33:21,167 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-20 00:33:21,486 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-20 00:33:21,486 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:33:29,996 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:33:29,996 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:33:29,996 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f1eee0c40f0>
+2021-03-20 00:33:30,120 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:33:30,120 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-20 00:33:30,803 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:33:30,803 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:33:30,803 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9c025690f0>
+2021-03-20 00:33:30,924 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:33:30,924 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-20 00:33:41,635 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:33:41,635 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:33:41,635 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fb2707340f0>
+2021-03-20 00:33:41,723 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:33:42,168 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:33:42,168 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:33:42,168 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f0077eb00f0>
+2021-03-20 00:33:42,249 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:34:55,635 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:34:55,635 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:34:55,635 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fbefaa190f0>
+2021-03-20 00:34:55,778 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:34:55,778 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-20 00:34:56,478 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:34:56,478 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:34:56,478 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fd5f0e3f0f0>
+2021-03-20 00:34:56,599 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:34:56,599 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-20 00:34:57,259 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:34:57,259 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:34:57,259 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fef7991f0f0>
+2021-03-20 00:34:57,357 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-20 00:34:57,357 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-20 00:34:57,983 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:34:57,983 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:34:57,983 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f72e130c0f0>
+2021-03-20 00:34:58,070 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-20 00:34:58,070 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-20 00:34:58,735 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:34:58,735 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:34:58,735 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fbd86f100f0>
+2021-03-20 00:34:58,778 dellemc_powerstore_host.py INFO : Getting host bd84cffe-e021-44b2-aa00-7392899fd0c2 details
+2021-03-20 00:34:58,815 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-20 00:34:59,124 dellemc_powerstore_host.py INFO : changed True
+2021-03-20 00:35:08,336 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:35:08,336 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:35:08,336 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fb99e9630f0>
+2021-03-20 00:35:08,451 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:35:08,451 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-20 00:35:09,132 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:35:09,132 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:35:09,132 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2291a7b0f0>
+2021-03-20 00:35:09,226 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-20 00:35:09,226 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-20 00:35:56,252 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:35:56,252 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:35:56,252 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f6ae5f470f0>
+2021-03-20 00:35:56,318 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-20 00:35:56,898 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-20 00:35:56,898 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:36:02,832 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:36:02,832 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:36:02,832 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fc403dbb0f0>
+2021-03-20 00:36:02,951 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:36:02,951 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-20 00:37:14,666 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:37:14,666 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:37:14,666 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f221fa930f0>
+2021-03-20 00:37:14,711 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-20 00:37:14,711 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-20 00:37:15,003 dellemc_powerstore_host.py INFO : the response is {'id': '54716e19-b285-4293-b6c3-f0ed835c87cf'}
+2021-03-20 00:37:15,084 dellemc_powerstore_host.py INFO : Getting host 54716e19-b285-4293-b6c3-f0ed835c87cf details
+2021-03-20 00:37:15,124 dellemc_powerstore_host.py INFO : changed True
+2021-03-20 00:37:24,879 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:37:24,879 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:37:24,879 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f33009850f0>
+2021-03-20 00:37:24,927 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-20 00:37:25,415 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-20 00:37:25,415 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:37:25,870 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:37:25,870 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:37:25,870 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f7c9e0890f0>
+2021-03-20 00:37:25,914 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-20 00:37:26,216 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-20 00:37:26,216 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:37:29,590 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:37:29,590 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:37:29,590 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7effa1e010f0>
+2021-03-20 00:37:29,734 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:37:29,734 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-20 00:37:30,383 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:37:30,383 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:37:30,383 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fdc607810f0>
+2021-03-20 00:37:30,499 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:37:30,499 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-20 00:37:33,473 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:37:33,473 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:37:33,473 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe8dc0950f0>
+2021-03-20 00:37:33,573 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:37:34,057 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:37:34,057 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:37:34,057 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f0e5ad020f0>
+2021-03-20 00:37:34,139 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:38:05,976 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:38:05,976 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:38:05,976 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7eff5194a0f0>
+2021-03-20 00:38:06,110 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:38:06,110 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-20 00:38:06,789 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:38:06,789 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:38:06,789 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f68de48e0f0>
+2021-03-20 00:38:06,910 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:38:06,911 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-20 00:38:07,566 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:38:07,567 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:38:07,567 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fb1de02d0f0>
+2021-03-20 00:38:07,652 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-20 00:38:07,652 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-20 00:38:08,325 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:38:08,325 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:38:08,325 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fdb4b4420f0>
+2021-03-20 00:38:08,407 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-20 00:38:08,407 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-20 00:38:09,077 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:38:09,077 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:38:09,078 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f1101a6b0f0>
+2021-03-20 00:38:09,120 dellemc_powerstore_host.py INFO : Getting host 54716e19-b285-4293-b6c3-f0ed835c87cf details
+2021-03-20 00:38:09,159 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-20 00:38:09,386 dellemc_powerstore_host.py INFO : changed True
+2021-03-20 00:38:18,082 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:38:18,082 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:38:18,082 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f77bb4a20f0>
+2021-03-20 00:38:18,211 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:38:18,212 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-20 00:38:18,860 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:38:18,860 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:38:18,860 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff2500ad0f0>
+2021-03-20 00:38:18,944 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-20 00:38:18,944 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-20 00:42:19,194 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:42:19,194 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:42:19,194 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f7f9cbbe0f0>
+2021-03-20 00:42:19,242 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-20 00:42:19,570 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-20 00:42:19,570 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:42:28,693 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:42:28,694 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:42:28,694 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fc41588f0f0>
+2021-03-20 00:42:28,816 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:42:28,817 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-20 00:43:48,297 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:43:48,297 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:43:48,297 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f53dfd280f0>
+2021-03-20 00:43:48,343 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-20 00:43:48,344 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-20 00:43:48,685 dellemc_powerstore_host.py INFO : the response is {'id': 'be1d462b-4659-40ba-ae55-f9cd365515e3'}
+2021-03-20 00:43:48,809 dellemc_powerstore_host.py INFO : Getting host be1d462b-4659-40ba-ae55-f9cd365515e3 details
+2021-03-20 00:43:48,848 dellemc_powerstore_host.py INFO : changed True
+2021-03-20 00:43:56,640 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:43:56,640 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:43:56,640 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f8e024780f0>
+2021-03-20 00:43:56,691 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-20 00:43:57,037 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-20 00:43:57,037 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:43:57,485 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:43:57,485 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:43:57,485 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fd2ce5af0f0>
+2021-03-20 00:43:57,570 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-20 00:43:57,936 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-20 00:43:57,936 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:44:01,746 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:44:01,746 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:44:01,746 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f1618dd20f0>
+2021-03-20 00:44:01,868 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:44:01,868 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-20 00:44:02,513 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:44:02,513 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:44:02,513 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f0790c670f0>
+2021-03-20 00:44:02,690 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:44:02,690 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-20 00:44:07,257 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:44:07,257 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:44:07,257 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f242e1d30f0>
+2021-03-20 00:44:07,342 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:44:07,790 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:44:07,790 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:44:07,790 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f33f231e0f0>
+2021-03-20 00:44:07,884 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:44:18,561 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:44:18,561 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:44:18,561 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f616844b0f0>
+2021-03-20 00:44:18,679 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:44:18,679 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-20 00:44:19,381 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:44:19,381 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:44:19,381 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9a4a2bf0f0>
+2021-03-20 00:44:19,501 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:44:19,501 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-20 00:44:20,162 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:44:20,162 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:44:20,162 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fa81a0800f0>
+2021-03-20 00:44:20,246 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-20 00:44:20,246 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-20 00:44:20,995 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:44:20,995 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:44:20,995 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f826e6960f0>
+2021-03-20 00:44:21,079 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-20 00:44:21,079 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-20 00:44:21,728 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:44:21,728 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:44:21,728 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f6d42ed00f0>
+2021-03-20 00:44:21,770 dellemc_powerstore_host.py INFO : Getting host be1d462b-4659-40ba-ae55-f9cd365515e3 details
+2021-03-20 00:44:21,810 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-20 00:44:22,020 dellemc_powerstore_host.py INFO : changed True
+2021-03-20 00:44:30,954 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:44:30,955 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:44:30,955 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f59166b40f0>
+2021-03-20 00:44:31,075 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 00:44:31,075 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-20 00:44:31,713 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 00:44:31,713 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 00:44:31,713 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f6a75d240f0>
+2021-03-20 00:44:31,806 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-20 00:44:31,806 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-20 02:23:11,785 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:23:11,785 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:23:11,785 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f7d9163b0f0>
+2021-03-20 02:23:11,843 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-20 02:23:12,194 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-20 02:23:12,194 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 02:23:15,048 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:23:15,048 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:23:15,049 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f985444a0f0>
+2021-03-20 02:23:15,165 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 02:23:15,165 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-20 02:24:08,786 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:24:08,786 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:24:08,786 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f734d1c80f0>
+2021-03-20 02:24:08,832 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-20 02:24:08,832 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-20 02:24:09,118 dellemc_powerstore_host.py INFO : the response is {'id': 'b1485bb7-3acb-4668-9f4d-128b1645c4ff'}
+2021-03-20 02:24:09,213 dellemc_powerstore_host.py INFO : Getting host b1485bb7-3acb-4668-9f4d-128b1645c4ff details
+2021-03-20 02:24:09,272 dellemc_powerstore_host.py INFO : changed True
+2021-03-20 02:24:12,557 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:24:12,557 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:24:12,557 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f3d5bdfd0f0>
+2021-03-20 02:24:12,603 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-20 02:24:12,904 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-20 02:24:12,904 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 02:24:13,354 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:24:13,354 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:24:13,354 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe2a5dad0f0>
+2021-03-20 02:24:13,404 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-20 02:24:13,959 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-20 02:24:13,959 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 02:24:15,519 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:24:15,519 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:24:15,519 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fde6ffe50f0>
+2021-03-20 02:24:15,644 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 02:24:15,644 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-20 02:24:16,313 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:24:16,313 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:24:16,313 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f5801c210f0>
+2021-03-20 02:24:16,440 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 02:24:16,440 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-20 02:24:28,572 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:24:28,572 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:24:28,572 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f99d3bb00f0>
+2021-03-20 02:24:28,667 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 02:24:29,179 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:24:29,179 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:24:29,179 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f401bab20f0>
+2021-03-20 02:24:29,260 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 02:24:41,055 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:24:41,055 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:24:41,056 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fa4605910f0>
+2021-03-20 02:24:41,173 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 02:24:41,173 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-20 02:24:41,879 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:24:41,879 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:24:41,879 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7faed192b0f0>
+2021-03-20 02:24:42,001 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 02:24:42,001 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-20 02:24:42,665 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:24:42,665 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:24:42,666 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f67580f00f0>
+2021-03-20 02:24:42,745 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-20 02:24:42,745 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-20 02:24:43,363 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:24:43,363 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:24:43,363 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f55bc2460f0>
+2021-03-20 02:24:43,444 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-20 02:24:43,444 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-20 02:24:44,145 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:24:44,145 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:24:44,145 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff6d355f0f0>
+2021-03-20 02:24:44,192 dellemc_powerstore_host.py INFO : Getting host b1485bb7-3acb-4668-9f4d-128b1645c4ff details
+2021-03-20 02:24:44,236 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-20 02:24:44,486 dellemc_powerstore_host.py INFO : changed True
+2021-03-20 02:24:53,377 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:24:53,377 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:24:53,377 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fc1641b60f0>
+2021-03-20 02:24:53,495 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 02:24:53,495 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-20 02:24:54,363 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 02:24:54,363 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 02:24:54,363 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f96827420f0>
+2021-03-20 02:24:54,451 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-20 02:24:54,451 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-20 04:06:22,034 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:06:22,034 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:06:22,034 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f8d6c45b0f0>
+2021-03-20 04:06:22,087 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-20 04:06:22,491 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-20 04:06:22,491 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 04:06:34,579 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:06:34,579 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:06:34,579 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fb7bd7c70f0>
+2021-03-20 04:06:34,719 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 04:06:34,719 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-20 04:07:42,330 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:07:42,330 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:07:42,330 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fcd6faf70f0>
+2021-03-20 04:07:42,373 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-20 04:07:42,373 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-20 04:07:42,660 dellemc_powerstore_host.py INFO : the response is {'id': '75e042f4-1b29-4a96-8855-c76f3904f1ff'}
+2021-03-20 04:07:42,767 dellemc_powerstore_host.py INFO : Getting host 75e042f4-1b29-4a96-8855-c76f3904f1ff details
+2021-03-20 04:07:42,806 dellemc_powerstore_host.py INFO : changed True
+2021-03-20 04:07:57,513 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:07:57,514 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:07:57,514 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ffac51160f0>
+2021-03-20 04:07:57,567 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-20 04:07:57,885 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-20 04:07:57,885 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 04:07:58,334 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:07:58,334 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:07:58,334 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fad66ac50f0>
+2021-03-20 04:07:58,386 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-20 04:07:58,736 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-20 04:07:58,736 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 04:08:03,265 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:08:03,265 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:08:03,265 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f6be6b380f0>
+2021-03-20 04:08:03,395 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 04:08:03,395 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-20 04:08:04,058 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:08:04,058 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:08:04,058 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fc46e4f70f0>
+2021-03-20 04:08:04,180 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 04:08:04,180 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-20 04:08:10,805 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:08:10,805 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:08:10,805 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f99b60130f0>
+2021-03-20 04:08:10,891 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 04:08:11,345 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:08:11,345 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:08:11,345 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4b905000f0>
+2021-03-20 04:08:11,425 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 04:08:34,538 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:08:34,538 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:08:34,538 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f5bfaed20f0>
+2021-03-20 04:08:34,664 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 04:08:34,664 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-20 04:08:35,329 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:08:35,329 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:08:35,329 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe84a9630f0>
+2021-03-20 04:08:35,577 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 04:08:35,577 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-20 04:08:36,392 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:08:36,392 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:08:36,393 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff0a5df20f0>
+2021-03-20 04:08:36,516 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-20 04:08:36,516 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-20 04:08:37,152 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:08:37,152 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:08:37,153 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f07e387f0f0>
+2021-03-20 04:08:37,238 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-20 04:08:37,238 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-20 04:08:37,847 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:08:37,847 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:08:37,847 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff9499c40f0>
+2021-03-20 04:08:37,889 dellemc_powerstore_host.py INFO : Getting host 75e042f4-1b29-4a96-8855-c76f3904f1ff details
+2021-03-20 04:08:37,925 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-20 04:08:38,142 dellemc_powerstore_host.py INFO : changed True
+2021-03-20 04:09:03,683 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:09:03,683 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:09:03,683 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe707d7b0f0>
+2021-03-20 04:09:03,809 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 04:09:03,809 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-20 04:09:04,501 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 04:09:04,501 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 04:09:04,502 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fc6fda920f0>
+2021-03-20 04:09:04,582 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-20 04:09:04,582 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-20 10:14:41,810 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:14:41,810 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:14:41,810 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fbb2c86a0f0>
+2021-03-20 10:14:41,857 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-20 10:14:42,241 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-20 10:14:42,241 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 10:14:54,147 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:14:54,147 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:14:54,147 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff25d8770f0>
+2021-03-20 10:14:54,292 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 10:14:54,293 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-20 10:16:32,022 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:16:32,023 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:16:32,023 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9424dce0f0>
+2021-03-20 10:16:32,065 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-20 10:16:32,065 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-20 10:16:32,351 dellemc_powerstore_host.py INFO : the response is {'id': 'c399ed93-08d7-44af-8bb5-66b1b5356934'}
+2021-03-20 10:16:32,455 dellemc_powerstore_host.py INFO : Getting host c399ed93-08d7-44af-8bb5-66b1b5356934 details
+2021-03-20 10:16:32,492 dellemc_powerstore_host.py INFO : changed True
+2021-03-20 10:16:59,417 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:16:59,417 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:16:59,417 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f73459f40f0>
+2021-03-20 10:16:59,464 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-20 10:17:00,134 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-20 10:17:00,134 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 10:17:00,588 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:17:00,588 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:17:00,588 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f5a5b1730f0>
+2021-03-20 10:17:00,634 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-20 10:17:00,954 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-20 10:17:00,954 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 10:17:14,394 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:17:14,394 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:17:14,394 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f55a630a0f0>
+2021-03-20 10:17:14,525 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 10:17:14,526 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-20 10:17:15,213 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:17:15,213 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:17:15,213 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fac8777f0f0>
+2021-03-20 10:17:15,336 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 10:17:15,336 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-20 10:17:27,124 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:17:27,124 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:17:27,124 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f41e49750f0>
+2021-03-20 10:17:27,237 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 10:17:27,685 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:17:27,685 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:17:27,685 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f36148160f0>
+2021-03-20 10:17:27,781 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 10:17:58,191 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:17:58,191 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:17:58,191 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f87a3b3b0f0>
+2021-03-20 10:17:58,319 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 10:17:58,319 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-20 10:17:58,951 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:17:58,951 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:17:58,951 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f1c1c5ef0f0>
+2021-03-20 10:17:59,074 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 10:17:59,074 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-20 10:17:59,738 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:17:59,738 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:17:59,738 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f6a3c8670f0>
+2021-03-20 10:17:59,822 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-20 10:17:59,822 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-20 10:18:00,459 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:18:00,459 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:18:00,459 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f26b18bc0f0>
+2021-03-20 10:18:00,542 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-20 10:18:00,542 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-20 10:18:01,191 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:18:01,191 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:18:01,191 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f049c3780f0>
+2021-03-20 10:18:01,233 dellemc_powerstore_host.py INFO : Getting host c399ed93-08d7-44af-8bb5-66b1b5356934 details
+2021-03-20 10:18:01,272 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-20 10:18:01,472 dellemc_powerstore_host.py INFO : changed True
+2021-03-20 10:18:26,959 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:18:26,959 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:18:26,959 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f94a6abc0f0>
+2021-03-20 10:18:27,083 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-20 10:18:27,083 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-20 10:18:27,749 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-20 10:18:27,749 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-20 10:18:27,749 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f13fb6730f0>
+2021-03-20 10:18:27,830 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-20 10:18:27,830 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS
+2021-03-22 08:24:47,009 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:24:47,010 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:24:47,010 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fa13b9500f0>
+2021-03-22 08:24:47,064 dellemc_powerstore_volume.py INFO : Creating volume mx-demo-Ansible-DS of size 107374182400 with performance policy None, protection_policy None, description None and volume_group None
+2021-03-22 08:24:48,081 dellemc_powerstore_volume.py INFO : Current volume size 107374182400 B is same as 107374182400 B specified
+2021-03-22 08:24:48,081 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-22 08:24:50,258 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:24:50,258 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:24:50,258 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4fe3eb40f0>
+2021-03-22 08:24:50,385 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-22 08:24:50,385 dellemc_powerstore_volume.py INFO : Mapping volume mx-demo-Ansible-DS to hostgroup MX7000-HostGroup with HLU None
+2021-03-22 08:25:51,252 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:25:51,252 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:25:51,252 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2de27730f0>
+2021-03-22 08:25:51,300 dellemc_powerstore_host.py INFO : Creating host demo-vm
+2021-03-22 08:25:51,300 dellemc_powerstore_host.py INFO : Creating host demo-vm with initiators [{'port_name': 'iqn.1994-05.com.redhat:ead337eb75a4', 'port_type': 'iSCSI'}]
+2021-03-22 08:25:51,635 dellemc_powerstore_host.py INFO : the response is {'id': '2aa07273-a0dc-47cb-85dd-439a02ea64e4'}
+2021-03-22 08:25:51,993 dellemc_powerstore_host.py INFO : Getting host 2aa07273-a0dc-47cb-85dd-439a02ea64e4 details
+2021-03-22 08:25:52,050 dellemc_powerstore_host.py INFO : changed True
+2021-03-22 08:26:12,794 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:26:12,794 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:26:12,794 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2e9869d0f0>
+2021-03-22 08:26:12,854 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol01 of size 53687091200 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-22 08:26:13,420 dellemc_powerstore_volume.py INFO : Current volume size 53687091200 B is same as 53687091200 B specified
+2021-03-22 08:26:13,420 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-22 08:26:13,871 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:26:13,871 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:26:13,871 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2b3aa520f0>
+2021-03-22 08:26:13,915 dellemc_powerstore_volume.py INFO : Creating volume demo-vm-ansible-vol02 of size 80530636800 with performance policy None, protection_policy None, description Ansible Demo and volume_group None
+2021-03-22 08:26:14,303 dellemc_powerstore_volume.py INFO : Current volume size 80530636800 B is same as 80530636800 B specified
+2021-03-22 08:26:14,303 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-22 08:26:19,701 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:26:19,701 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:26:19,701 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f33d96f20f0>
+2021-03-22 08:26:19,820 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-22 08:26:19,820 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol01 to host demo-vm with HLU None
+2021-03-22 08:26:20,566 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:26:20,566 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:26:20,567 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f53c56280f0>
+2021-03-22 08:26:20,683 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-22 08:26:20,683 dellemc_powerstore_volume.py INFO : Mapping volume demo-vm-ansible-vol02 to host demo-vm with HLU None
+2021-03-22 08:26:24,774 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:26:24,774 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:26:24,774 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe9ca41d0f0>
+2021-03-22 08:26:24,861 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-22 08:26:25,322 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:26:25,322 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:26:25,322 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fd4076780f0>
+2021-03-22 08:26:25,409 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-22 08:26:50,389 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:26:50,389 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:26:50,389 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f7cbbbe60f0>
+2021-03-22 08:26:50,520 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-22 08:26:50,520 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol01 from host demo-vm
+2021-03-22 08:26:51,179 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:26:51,179 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:26:51,179 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f13a8fc70f0>
+2021-03-22 08:26:51,309 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-22 08:26:51,309 dellemc_powerstore_volume.py INFO : Unmapping volume demo-vm-ansible-vol02 from host demo-vm
+2021-03-22 08:26:51,973 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:26:51,973 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:26:51,973 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9a366800f0>
+2021-03-22 08:26:52,054 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01 
+2021-03-22 08:26:52,054 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol01
+2021-03-22 08:26:52,754 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:26:52,754 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:26:52,754 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f856c6ee0f0>
+2021-03-22 08:26:52,847 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02 
+2021-03-22 08:26:52,847 dellemc_powerstore_volume.py INFO : Deleting volume demo-vm-ansible-vol02
+2021-03-22 08:26:53,564 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:26:53,564 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:26:53,564 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe86ded30f0>
+2021-03-22 08:26:53,622 dellemc_powerstore_host.py INFO : Getting host 2aa07273-a0dc-47cb-85dd-439a02ea64e4 details
+2021-03-22 08:26:53,667 dellemc_powerstore_host.py INFO : Delete host demo-vm 
+2021-03-22 08:26:54,121 dellemc_powerstore_host.py INFO : changed True
+2021-03-22 08:27:03,392 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:27:03,392 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:27:03,392 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fb061a010f0>
+2021-03-22 08:27:03,524 dellemc_powerstore_volume.py INFO : No change detected
+2021-03-22 08:27:03,524 dellemc_powerstore_volume.py INFO : Unmapping volume mx-demo-Ansible-DS from hostgroup MX7000-HostGroup
+2021-03-22 08:27:04,186 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2021-03-22 08:27:04,186 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2021-03-22 08:27:04,186 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fb24ec900f0>
+2021-03-22 08:27:04,271 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS 
+2021-03-22 08:27:04,271 dellemc_powerstore_volume.py INFO : Deleting volume mx-demo-Ansible-DS

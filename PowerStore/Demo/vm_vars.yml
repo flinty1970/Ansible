@@ -1,0 +1,37 @@
+---
+array_ip: 172.30.205.66
+user: 'admin'
+password: 'P@ssw0rd'
+verifycert: False
+
+vol_name: 'mx-demo-Ansible-DS'  #PowerStore & VC Datastore Name
+esx_host: 'mx1.maxwell.lab'
+hg_name: 'MX7000-HostGroup'
+new_datastore: 'mx-demo-Ansible-DS'
+vm_name: 'demo-vm'
+orig_datastore: 'vsanDatastore'
+vm_initiator: 'iqn.1994-05.com.redhat:ead337eb75a4'
+
+
+volumes:
+  - volname: demo-vm-ansible-vol01
+    vgname: ''
+    volsize: 50
+    volcapunit: 'GB'
+    voldesc: "demo-vm Ansible Demo vol01"
+
+  - volname: demo-vm-ansible-vol02
+    vgname: ''
+    volsize: 75
+    volcapunit: 'GB'
+    voldesc: "demo-vm Ansible Demo vol02"
+
+fs:
+  - mount_path: /data/test-vm01
+    volname: demo-vm-ansible-vol01
+    fstype: xfs
+
+  - mount_path: /data/test-vm02
+    volname: demo-vm-ansible-vol02
+    fstype: xfs
+

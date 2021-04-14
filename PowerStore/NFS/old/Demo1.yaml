@@ -1,0 +1,47 @@
+---
+- name: PowerStore Ansible Demo
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  vars:
+     esxihost: mx1.maxwell.lab
+     vcenter_server: 172.30.240.15
+     vcenter_user: administrator@vsphere.local
+     vcenter_pass: Dell!123
+     voltype: nfs41
+     nfsvol_name: Ansible_FS
+     nfs_server_ip: 172.30.206.2
+
+
+
+  tasks:
+
+    - name: Mount NFS v4.1 datastores to ESXi
+      vmware_host_datastore:
+       hostname: '{{ vcenter_server }}'
+       username: '{{ vcenter_user }}'
+       password: '{{ vcenter_pass }}'
+       datastore_name: '{{ item.name }}'
+       datastore_type: '{{ item.type }}'
+       nfs_server: '{{ item.server }}'
+       nfs_path: '{{ item.path }}'
+       nfs_ro: no
+       validate_certs: no 
+       esxi_hostname: '{{ esxihost }}'
+       state: present
+      delegate_to: localhost
+      loop:
+          - { 'name':'{{ nfsvol_name }}', 'server': '{{ nfs_server_ip }}', 'path': '/{{ nfsvol_name }}', 'type': '{{ voltype }}'}
+      #- { 'name': 'NasDS_vol04', 'server': 'nas01,nas02', 'path': '/mnt/vol02', 'type': 'nfs41'}
+
+    - pause:
+
+    - name: Remove/Umount Datastores from a ESXi
+      vmware_host_datastore:
+       hostname: mx1.maxwell.lab
+       validate_certs: no 
+       username: root
+       password: Dell!123
+       datastore_name: Ansible_FS
+       state: absent
+      delegate_to: localhost

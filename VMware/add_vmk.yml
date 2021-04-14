@@ -1,0 +1,39 @@
+---
+- name:  vmk Ansible Demo
+  hosts: localhost
+  connection: local
+
+
+  vars:
+   vswitch_name: "vSAN DS"
+   vlan_id: 252
+   portgroup_name: VL-252
+   ip_address: 10.20.10.10
+   subnet_mask: 255.255.255.0
+   esxi_hostname: mx1.maxwell.lab
+   esxi_username: administrator@vsphere.local
+   esxi_password: Dell!123
+   vc_hostname: vcsa7.maxwell.lab
+
+  tasks:
+
+#    - name: Print a message
+      #ansible.builtin.debug:
+        #msg: 'Logging in as {{ username }}'
+        #msg: 'Password is {{ password }}'
+
+
+     -  name: Change IP allocation from static to dhcp
+        vmware_vmkernel:
+           hostname: '{{ vc_hostname }}'
+           username: '{{ esxi_username }}'
+           password: '{{ esxi_password }}'
+           esxi_hostname: '{{ esxi_hostname }}'
+           dvswitch_name: '{{ vswitch_name }}'
+           portgroup_name: '{{ portgroup_name }}'
+           device: vmk5
+           validate_certs: false
+           network:
+             type: 'dhcp'
+           state: present
+        delegate_to: localhost

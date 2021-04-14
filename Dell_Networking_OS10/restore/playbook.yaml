@@ -1,0 +1,16 @@
+---
+- name: restore switch configs
+  hosts: fabric_b
+  connection: network_cli
+  gather_facts: yes
+
+  roles:
+    - dellemc.os10.os10_copy_config 
+
+  tasks:
+    - name: copy running-configuration startup-configuration
+      dellos10_config:
+        commands: ['copy running-configuration startup-configuration']
+
+
+
